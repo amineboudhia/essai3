@@ -1,0 +1,11 @@
+name: Last
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: .github/workflows/logs.txt
+
