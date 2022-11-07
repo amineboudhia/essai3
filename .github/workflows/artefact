@@ -1,6 +1,0 @@
-steps:
-
-- uses: actions/upload-artifact@v3
-  with:
-    name: logs.txt
-    path: .github/workflows/logs.txt
